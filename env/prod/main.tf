@@ -1,5 +1,6 @@
 module "prod" {
   source = "../../infra"
 
-  repositoryName = "Producao"
+  repositoryName = "producao"
+  iamPosition = "producao"
 }

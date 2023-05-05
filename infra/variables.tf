@@ -6,3 +6,7 @@ variable "iamPosition" {
   type = string
 }
 
+variable "environment" {
+  type = string
+}
+

@@ -3,6 +3,7 @@ module "prod" {
 
   repositoryName = "producao"
   iamPosition = "producao"
+  environment = "producao"
 }
 
 output "ipLoadBalancerOutput" {

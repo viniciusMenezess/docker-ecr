@@ -4,3 +4,7 @@ module "prod" {
   repositoryName = "producao"
   iamPosition = "producao"
 }
+
+output "ipLoadBalancerOutput" {
+  value = module.prod.loadBalancerOutput
+}
